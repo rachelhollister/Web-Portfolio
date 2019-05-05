@@ -1,0 +1,162 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    overflow-x: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+    text-rendering: optimizeLegibility !important;
+    -webkit-font-smoothing: antialiased !important; 
+}
+
+
+/* NAVIGATION */
+.navbar {
+    background-color: #ffffff !important;
+    text-transform: uppercase;
+    font-family: 'Comfortaa', cursive;
+    font-weight: 600;
+}
+
+/* ANCHOR TAGS */
+
+.navbar a {
+    color: #899291 !important;
+}
+/* HEADER */
+
+.header {
+    height: 700px;
+    width: 100%;
+    padding: 30px 0px 30px 0px;
+    background-image: url(../images/notepadname.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+@media(max-width:768px) {
+    .header {
+        padding: 30px;
+        height: 600px;
+        width: 100%;
+        padding: 30px 0px 30px 0px;
+        background-image: url(../images/notepadname.jpg);
+        background-position: left;
+        background-repeat: no-repeat;
+        background-size: 100%;
+        
+    }
+
+    .header img {
+        width: 100%;
+    }
+
+}   
+
+/* ABOUT */
+
+.about {
+    padding: 80px 0px 80px 0px;
+    text-align: center;
+    background-color: #ececec;
+}
+
+.about h4 {
+    margin-top: 100px;
+    margin-bottom: 50px;
+    font-family: 'Comfortaa', cursive;
+    color: #6e6e6e;
+    font-size: 70px;
+}
+
+.about p {
+    font-family: 'Comfortaa', cursive;
+    color: #6e6e6e;
+    font-size: 18px;
+    padding-bottom: 100px;
+}
+
+/* about image */
+
+.about img {
+    margin: 100px 0px 100px 0px;
+    width: 100%;
+    height: auto;
+    float: left;
+}
+
+/* how will this look on small screen? add padding */
+
+@media(max-width:768px) {
+    .about {
+        padding:5px;
+    }
+}
+
+/* //end of styling mobile on icons */
+
+.works {
+    padding: 100px 0 100px 0;
+    background-color: #6e6e6e; 
+}
+
+.works img {
+    /* border-radius: 50%; */
+    padding: 20px;
+}
+
+
+/* CONTACT FORM  */
+
+.contact {
+    padding: 50px 0 80px;
+    text-align: center;
+    background-color: #ececec;
+}
+
+.contact p {
+    padding-bottom: 80px;
+    color: #737373;
+}
+
+.contact h2 {
+    color: #4c4c4c;
+    margin: 20px 0 20px;
+}
+
+.contact .input-group{
+    margin-bottom: 25px;
+}
+
+.contact .form-control {
+    border-radius: 0 !important;
+}
+
+.contact span {
+    border-radius: 0 !important;
+}
+
+.contact .btn {
+    border-radius: 0;
+    width: 100%;
+    font-size: 15px;
+    background-color: #4c4c4c;
+    color: white;
+}
+
+.contact .btn:hover {
+    background-color: rgb(231, 29, 164) !important;
+    color: white !important;
+}
+
+/* FOOTER */
+
+.footer {
+    padding: 30px;
+    color: #ffffff;
+    background-color: #6e6e6e;
+    text-align: center;
+}
