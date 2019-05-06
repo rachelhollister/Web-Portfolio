@@ -22,7 +22,7 @@ body {
 /* ANCHOR TAGS */
 
 .navbar a {
-    color: #899291 !important;
+    color: #565656 !important;
 }
 /* HEADER */
 
@@ -30,7 +30,7 @@ body {
     height: 700px;
     width: 100%;
     padding: 30px 0px 30px 0px;
-    background-image: url(../images/notepadname.jpg);
+    background-image: url(../images/herobanner.png);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -43,7 +43,7 @@ body {
         height: 600px;
         width: 100%;
         padding: 30px 0px 30px 0px;
-        background-image: url(../images/notepadname.jpg);
+        background-image: url(../images/herobanner.jpg);
         background-position: left;
         background-repeat: no-repeat;
         background-size: 100%;
@@ -67,13 +67,13 @@ body {
 .about h4 {
     margin-top: 100px;
     margin-bottom: 50px;
-    font-family: 'Comfortaa', cursive;
+    font-family: 'Open Sans', sans-serif;
     color: #6e6e6e;
     font-size: 70px;
 }
 
 .about p {
-    font-family: 'Comfortaa', cursive;
+    font-family: 'Open Sans', sans-serif;
     color: #6e6e6e;
     font-size: 18px;
     padding-bottom: 100px;
@@ -88,6 +88,36 @@ body {
     float: left;
 }
 
+/* team member section */
+
+.skills {
+    padding: 50px 0 80px;
+    text-align: center;
+    background-color: white;
+    margin-bottom: 60px;
+}
+
+.skills h4 {
+    margin: 20px 0 px 20px;
+    color: #fab9c0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+}
+
+.skills p {
+    color: #6e6e6e;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+}
+
+
+.skills img {
+    height: 200px;
+    width: auto;
+    margin-top: 60px;
+}
+
+
 /* how will this look on small screen? add padding */
 
 @media(max-width:768px) {
@@ -100,11 +130,11 @@ body {
 
 .works {
     padding: 100px 0 100px 0;
-    background-color: #6e6e6e; 
+    background-color: #ececec; 
 }
 
 .works img {
-    /* border-radius: 50%; */
+    border-radius: 50%;
     padding: 20px;
 }
 
@@ -115,6 +145,7 @@ body {
     padding: 50px 0 80px;
     text-align: center;
     background-color: #ececec;
+    
 }
 
 .contact p {
