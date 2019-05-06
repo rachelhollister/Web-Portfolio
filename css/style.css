@@ -13,7 +13,7 @@ body {
 
 /* NAVIGATION */
 .navbar {
-    background-color: #ffffff !important;
+    background-color: #fab9c0 !important;
     text-transform: uppercase;
     font-family: 'Comfortaa', cursive;
     font-weight: 600;
@@ -22,7 +22,7 @@ body {
 /* ANCHOR TAGS */
 
 .navbar a {
-    color: #565656 !important;
+    color: #ffffff !important;
 }
 /* HEADER */
 
@@ -107,7 +107,7 @@ body {
 .skills p {
     color: #6e6e6e;
     font-family: 'Open Sans', sans-serif;
-    font-size: 13px;
+    font-size: 14px;
 }
 
 
@@ -129,13 +129,13 @@ body {
 /* //end of styling mobile on icons */
 
 .works {
-    padding: 100px 0 100px 0;
-    background-color: #ececec; 
+    padding: 100px 0 5px 40px;
+    background-color: #ffffff; 
 }
 
 .works img {
-    border-radius: 50%;
-    padding: 20px;
+    height: 300px;
+    width: 300px;
 }
 
 
@@ -144,7 +144,7 @@ body {
 .contact {
     padding: 50px 0 80px;
     text-align: center;
-    background-color: #ececec;
+    background-color: #ffffff;
     
 }
 
@@ -185,9 +185,11 @@ body {
 
 /* FOOTER */
 
+
 .footer {
+    margin-top: 50px;
     padding: 30px;
     color: #ffffff;
-    background-color: #6e6e6e;
+    background-color: #fab9c0;
     text-align: center;
 }
